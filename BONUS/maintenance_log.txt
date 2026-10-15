@@ -1,0 +1,33 @@
+# Robotic Arm Joint Health — Maintenance Log
+# Technicians write free-form notes during inspections.
+# This file is read as a SECOND SIGNAL alongside sensor data.
+# Format: [DATE TIME] [ARM_ID] [JOINT] :: <free text note>
+# ─────────────────────────────────────────────────────────────────────────────
+
+[2026-10-11 07:14] ARM-01 shoulder :: Noticed a slight grinding noise when the shoulder rotated past 90 degrees. Could be early bearing wear. Kept an eye on it but did not stop production.
+
+[2026-10-11 08:30] ARM-02 elbow :: Routine visual check, everything looked fine. Lubrication topped up. No unusual sounds or smells.
+
+[2026-10-11 09:45] ARM-03 wrist :: Wrist joint felt stiff during manual jog test. Had to apply extra torque to move it. Flagged for closer monitoring next shift.
+
+[2026-10-11 10:05] ARM-01 elbow :: Team meeting ran over — did not get a chance to do the elbow check today. Will carry forward to next inspection window.
+
+[2026-10-11 11:22] ARM-02 shoulder :: The shoulder was running noticeably hot during the afternoon batch. Touched the casing and it was too warm to hold hand against. Overheating concern — logged for engineer review.
+
+[2026-10-11 12:40] ARM-04 wrist :: Ordered replacement wrist seals from the supplier. Current seals look worn but not leaking yet. Preventive stock purchase only.
+
+[2026-10-11 13:55] ARM-03 elbow :: Elbow joint making a loud rattling sound during fast traversal cycles. Stopped the arm, checked the bolts — two were loose. Re-tightened, but vibration pattern suggests internal wear.
+
+[2026-10-11 14:10] ARM-05 shoulder :: Had lunch break at 14:00. Nothing to report on ARM-05, passed all visual checks. Oil level normal.
+
+[2026-10-11 15:30] ARM-02 wrist :: Wrist encoder reading looked shaky on the HMI screen — values were flickering between positions. Could be a damaged cable or a faulty sensor. Unusual behaviour — escalated to engineering.
+
+[2026-10-11 16:00] ARM-01 wrist :: Quick end-of-shift check. No faults reported. All joints moving smoothly, temperatures normal. Closed shift log.
+
+[2026-10-12 08:15] ARM-04 elbow :: Found traces of grease leaking from the elbow gearbox. Not a large amount but definitely not normal. Scheduled a strip-down for the weekend maintenance window.
+
+[2026-10-12 09:00] ARM-06 shoulder :: Shoulder axis making strange high-pitched noise above 80% speed. Reduced operating speed to 60% as a precaution. Damage or imbalance suspected.
+
+[2026-10-12 10:30] ARM-05 elbow :: Nothing unusual during inspection. Replaced a worn cable tie on the harness — purely cosmetic. All sensors reading normally.
+
+[2026-10-12 11:45] ARM-03 shoulder :: Shoulder joint shaking during fast deceleration moves. Vibration is clearly higher than normal. Arm temporarily removed from production line pending inspection.
